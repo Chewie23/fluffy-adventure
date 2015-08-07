@@ -1,0 +1,3 @@
+Dan Jones 40%;
+Bert Johnson 70%;
+Matt Silvers 50%;
