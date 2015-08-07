@@ -1,4 +1,2 @@
 # redolent-hockeypuck
-Python exercises to keep me sharp
-
-Will add folders to keep them seperated and such.
+File parsing. Using the python script to take out certain lines and put them into new files. Original file is "results.txt"
