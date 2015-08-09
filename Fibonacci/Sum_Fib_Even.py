@@ -13,3 +13,4 @@ for item in range (1, 11):
 	li.append(x)
 	print li
 	
+#Output: [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
