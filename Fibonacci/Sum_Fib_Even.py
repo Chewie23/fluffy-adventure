@@ -20,11 +20,10 @@ def fib(num): #function to get Fibonacci Sequence
     
 
 for i in fib(100): #finds Fibonacci Sequence's even numbers < 4 million
-    if i % 2 == 0: #finds the even numbers
-        even_sum += i
     if i > 4000000: #This is here to break out of the loop when the number is greater than 4 million
         break
-
+    if i % 2 == 0: #finds the even numbers
+            even_sum += i
 print "The sum of all even Fibonacci numbers under 4 million is: %r" % even_sum
 
 
