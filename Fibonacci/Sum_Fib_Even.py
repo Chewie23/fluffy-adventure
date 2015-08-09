@@ -18,16 +18,12 @@ def fib(num): #function to get Fibonacci Sequence
         fib_list.append(x)
     return fib_list
     
-#May belong in a function? But for now, it works!
-for i in fib(100): #finds Fibonacci Sequence's even numbers < 4 million
-    if i % 2 == 0:
-        even.append(i)
-        if 3000000 < i < 4000000: #This is here to break out of the loop but not too early
-            print "The even Fibonacci numbers under 4 million are: %r" % even
-            break
 
-for a in range(len(even)):#This finds the sum of the even numbers
-    even_sum += even[a]
+for i in fib(100): #finds Fibonacci Sequence's even numbers < 4 million
+    if i % 2 == 0: #finds the even numbers
+        even_sum += i
+    if i > 4000000: #This is here to break out of the loop when the number is greater than 4 million
+        break
 
 print "The sum of all even Fibonacci numbers under 4 million is: %r" % even_sum
 
