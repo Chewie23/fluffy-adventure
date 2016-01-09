@@ -15,5 +15,5 @@ def loop_youtube_vid(VIDEO_ID):
 
     webbrowser.open_new(URL)
 
-VIDEO_ID = '_gxLms9eBKk'    
+VIDEO_ID = '_gxLms9eBKk' #Av.i - Bluebird
 loop_youtube_vid(VIDEO_ID)
